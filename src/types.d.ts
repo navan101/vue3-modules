@@ -1,5 +1,5 @@
 declare module 'vue-modules' {
-    import { Vue as _Vue } from 'vue/types/vue'
+    import _Vue from 'vue';
   
     export interface VueModule<T = Record<string, any>> {
       readonly name: string
