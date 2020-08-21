@@ -1,0 +1,4 @@
+about:
+  path: about
+  component: ../components/About.vue
+  lazy: about

@@ -3,7 +3,8 @@ declare module 'vue-modules' {
   
     export interface VueModule<T = Record<string, any>> {
       readonly name: string
-      install(Vue: typeof _Vue): void;
-      install(Vue: typeof _Vue, options: T): void;
+      install(): void;
+      // install(Vue: typeof _Vue): void;
+      // install(Vue: typeof _Vue, options: T): void;
     }
   }

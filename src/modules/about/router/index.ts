@@ -1,10 +1,12 @@
 import { RouteRecordRaw } from 'vue-router'
-const About = () =>
-  import(/* webpackChunkName: "about" */ '../components/About.vue')
+import About from '../components/About.vue'
 
-export const aboutRoutes: RouteRecordRaw =
-  {
-    path: '/about',
-    name: 'about',
-    component: About
-  }
+export const routes: RouteRecordRaw = {
+  path: 'about',
+  name: 'about',
+  component: About
+}
+
+// import routes from './routes.yaml';
+
+// export default routes;

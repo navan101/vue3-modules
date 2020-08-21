@@ -1,9 +1,9 @@
 import { RouteRecordRaw } from 'vue-router'
 import Home from '../components/Home.vue'
 
-export const homeRoutes: RouteRecordRaw = 
+export const routes: RouteRecordRaw =
   {
-    path: '/',
+    path: 'home',
     name: 'home',
     component: Home
   }
